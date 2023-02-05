@@ -58,7 +58,7 @@ img {
 }
 /*----------------HEADER-------------------*/
 .header {
-        border: 1px solid #E7E9FC;
+        border-bottom: 1px solid #E7E9FC;
     
     
 }
@@ -310,6 +310,10 @@ color: #F4F4FD;
     margin-bottom: 72px;
 }
 .filter-btn {
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
     font-family:inherit;
     font-style: normal;
     font-weight: 500;
@@ -338,12 +342,12 @@ color: #F4F4FD;
         color:var(--second-title-color);
         background-color:var(--hover-bg-color);
 }
-
 .example-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px 24px;
 }
+
 .example-list > .example-item {
     flex-basis: calc((100% - 48px) / 3);
 }
